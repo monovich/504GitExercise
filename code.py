@@ -1,4 +1,4 @@
-def function1(a):
+def count_dict(a):
     b = dict()
     for c in a:
         if c not in b:
@@ -7,7 +7,7 @@ def function1(a):
             b[c] += 1
     return b
 
-def function2(a):
+def frequency(a):
     print('freqs')
     total = float(sum([a[b] for b in a.keys()]))
     for b in a.keys():
